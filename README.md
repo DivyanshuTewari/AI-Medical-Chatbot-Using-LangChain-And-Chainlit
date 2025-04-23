@@ -36,7 +36,7 @@ The chatbot includes a clean, browser-based chat interface powered by Chainlit. 
 
 
 ## 📁 Project Structure
-
+```plaintext
 ├── model.py           # Core chatbot logic with LangChain and LLM
 ├── ingest.py          # Script to ingest PDF data into FAISS vector DB
 ├── chainlit.md        # Custom welcome screen content for Chainlit
