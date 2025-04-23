@@ -37,9 +37,11 @@ The chatbot includes a clean, browser-based chat interface powered by Chainlit. 
 
 ## 📁 Project Structure
 
-├── ingest.py         # Ingest and embed PDFs into FAISS DB 
-├── model.py          # Core chatbot logic with LangChain and LLM 
-├── chainlit.md       # Custom welcome screen for Chainlit UI 
-├── requirements.txt  # Python dependencies 
-├── vectorstores/     # Stored FAISS vector database 
-└── data/             # Folder containing PDF medical documents
+├── model.py           # Core chatbot logic with LangChain and LLM
+├── ingest.py          # Script to ingest PDF data into FAISS vector DB
+├── chainlit.md        # Custom welcome screen content for Chainlit
+├── requirements.txt   # Python dependency file
+├── data/              # Folder containing medical PDF documents
+├── vectorstores/      # FAISS vector database storage
+└── README.md          # Project overview
+
